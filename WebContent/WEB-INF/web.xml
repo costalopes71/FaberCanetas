@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>FaberCanetas</display-name>
+ 
+	<welcome-file-list>
+    	<welcome-file>home</welcome-file>
+ 	</welcome-file-list>
+  
+  <filter>
+    <filter-name>PageFilter</filter-name>
+    <filter-class>br.com.fabercanetas.filter.PageFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>PageFilter</filter-name>
+    <url-pattern>/index.jsp</url-pattern>
+    <url-pattern>/produto.jsp</url-pattern>
+    <url-pattern>/carrinho.jsp</url-pattern>
+    <url-pattern>/confirma_compra.jsp</url-pattern>
+    <url-pattern>/barra_navegacao.html</url-pattern>
+    <url-pattern>/footer.html</url-pattern>
+    <url-pattern>/gerenciamento_pedido.jsp</url-pattern>
+    <url-pattern>/relatorio_venda.jsp</url-pattern>
+    <url-pattern>/carrinho</url-pattern>
+    <url-pattern>/home</url-pattern>
+    <url-pattern>/produto</url-pattern>
+    <url-pattern>/meuspedidos</url-pattern>
+    <url-pattern>/relatorio</url-pattern>
+    <url-pattern>/dashboard_funcionario.jsp</url-pattern>
+    <url-pattern>/dashboard_gerente.jsp</url-pattern>
+    <url-pattern>/ordem_compra.jsp</url-pattern>
+  </filter-mapping>
+  
+  <session-config>
+    <session-timeout>10</session-timeout>
+  </session-config>
+  
+  <resource-ref>
+    <description>DataSource para conexao com o Oracle</description>
+    <res-ref-name>jdbc/exemploDataSourcePool</res-ref-name>
+    <res-type>javax.sql.DataSource</res-type>
+    <res-auth>Container</res-auth>
+  </resource-ref>
+  
+	<error-page>
+		<exception-type>java.lang.Throwable</exception-type>
+		<location>/error.jsp</location>
+	</error-page>
+  
+</web-app>

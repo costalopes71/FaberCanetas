@@ -1,0 +1,27 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+
+.container-footer {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.footer a {
+	text-decoration: none;
+}
+
+.footer a:HOVER {
+	text-decoration: underline;
+}
