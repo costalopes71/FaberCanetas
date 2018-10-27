@@ -3,8 +3,12 @@ Projeto WEB do 1 (primeiro) ano de faculdade de Análise e Desenvolvimento de Si
 Foi desenvolvido um projeto de Supply Chain para a empresa T-Systems. Basicamente, foi implementado um portal de vendas, e dois sistemas de dashboard, sendo o primeiro um dashboad gerencial e o segundo um dashboard operacional.
 
 # Quais TECNOLOGIAS você irá encontrar no projeto
-Front-end : Html5, css3, bootstrap 3.3.7, jquery, javascript
-Backend : Java 8, JDBC, Servlet, JSP, tags libs, jstl, JEE
+Front-end : 
+* Html5
+* css3 
+* bootstrap 3.3.7, jquery, javascript
+Backend : 
+- Java 8- JDBC, Servlet, JSP, tags libs, jstl, JEE
 Arquitetura : MVC (camada de negócio, camada de persitência, camada de apresentação).
 Design Patterns: Singleton, DAO, Factory
 Web container : Tomcat9
