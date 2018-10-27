@@ -7,11 +7,25 @@ Front-end :
 * Html5
 * css3 
 * bootstrap 3.3.7, jquery, javascript
+
 Backend : 
-- Java 8- JDBC, Servlet, JSP, tags libs, jstl, JEE
-Arquitetura : MVC (camada de negócio, camada de persitência, camada de apresentação).
-Design Patterns: Singleton, DAO, Factory
-Web container : Tomcat9
+* Java 8
+* JDBC
+* Servlet
+* JSP
+* tags libs, jstl
+* JEE
+
+Arquitetura : 
+* Model-View-Controller (MVC) com camada de apresentação, camada de persistência (DAO) e camada de negócio (BO) usando para a comunicação entre camadas os objetos de transferência (TO ou DTO).
+* Client-Server pattern
+
+Design Patterns: 
+* Singleton 
+* DAO
+*Factory
+
+* Web container : Tomcat9
 
 # Quais tópicos principais posso encontrar no projeto?
 Usando as tecnologias listadas acima, você poderá ver como implementamos:
