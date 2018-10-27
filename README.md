@@ -25,7 +25,7 @@ Backend :
 # Design Patterns
 * Singleton 
 * DAO
-*Factory
+* Factory
 
 # Web container
 * Tomcat9
