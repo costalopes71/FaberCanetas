@@ -16,17 +16,19 @@ Backend :
 * JSP
 * tags libs, jstl
 * JEE
+* SQL (Oracle)
 
-Arquitetura : 
+# Arquitetura
 * Model-View-Controller (MVC) com camada de apresentação, camada de persistência (DAO) e camada de negócio (BO) usando para a comunicação entre camadas os objetos de transferência (TO ou DTO).
 * Client-Server pattern
 
-Design Patterns: 
+# Design Patterns
 * Singleton 
 * DAO
 *Factory
 
-* Web container : Tomcat9
+# Web container
+* Tomcat9
 
 # Quais tópicos principais posso encontrar no projeto?
 Usando as tecnologias listadas acima, você poderá ver como implementamos:
