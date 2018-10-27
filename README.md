@@ -42,6 +42,8 @@ Usando as tecnologias listadas acima, você poderá ver como implementamos:
 - fowards e redirects
 - CRUD completo
 - lógica de programação, principalmente no método que controla o farol de estoque dos armazéns
+- Login e Logout do sistema fazendo validação num banco de dados
+- Requisições POST e GET (e a utilização da boa prática de "always redirect after post")
 - entre outros
 
 # Ambientes e Telas de visualização do usuário
