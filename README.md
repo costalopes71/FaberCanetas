@@ -1,6 +1,7 @@
 # FaberCanetas
 Projeto WEB do 1 (primeiro) ano de faculdade de Análise e Desenvolvimento de Sistema na faculdade FIAP. 
-Foi desenvolvido um projeto de Supply Chain para a empresa T-Systems. Basicamente, foi implementado um portal de vendas, e dois sistemas de dashboard, sendo o primeiro um dashboad gerencial e o segundo um dashboard operacional.
+Foi desenvolvido um pequeno projeto com o tema de Supply Chain. 
+Basicamente, foi implementado um portal de vendas e dois sistemas de dashboard, sendo o primeiro um dashboad gerencial e o segundo um dashboard operacional.
 
 # Quais TECNOLOGIAS você irá encontrar no projeto
 Front-end : 
