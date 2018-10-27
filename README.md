@@ -1,6 +1,6 @@
 # FaberCanetas
 Projeto WEB do 1 (primeiro) ano de faculdade de Análise e Desenvolvimento de Sistema na faculdade FIAP. 
-Foi desenvolvido um pequeno projeto com o tema de Supply Chain. 
+Foi desenvolvido um projeto com o tema de Supply Chain. 
 Basicamente, foi implementado um portal de vendas e dois sistemas de dashboard, sendo o primeiro um dashboad gerencial e o segundo um dashboard operacional.
 
 # Quais TECNOLOGIAS você irá encontrar no projeto
